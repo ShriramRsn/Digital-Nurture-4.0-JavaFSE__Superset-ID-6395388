@@ -5,6 +5,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Store",
+            "request": "launch",
+            "mainClass": "Store",
+            "projectName": "Digital-Nurture-4.0-JavaFSE_d10dd37e"
+        },
+        {
+            "type": "java",
             "name": "Driver",
             "request": "launch",
             "mainClass": "Driver",
