@@ -1,0 +1,43 @@
+{
+    // VS Code launch configuration for Java
+    // Runs Java programs using the integrated terminal
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Driver",
+            "request": "launch",
+            "mainClass": "Driver",
+            "projectName": "Digital-Nurture-4.0-JavaFSE_d10dd37e"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Digital-Nurture-4.0-JavaFSE_d10dd37e"
+        },
+        {
+            "type": "java",
+            "name": "ComputerConfig",
+            "request": "launch",
+            "mainClass": "ComputerConfig",
+            "projectName": "Digital-Nurture-4.0-JavaFSE_d10dd37e"
+        },
+        {
+            "type": "java",
+            "name": "Run Current File (Terminal)",
+            "request": "launch",
+            "mainClass": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Run Application (Terminal)",
+            "request": "launch",
+            "mainClass": "Application",
+            "projectName": "Digital-Nurture-4.0-JavaFSE_d10dd37e",
+            "console": "integratedTerminal"
+        }
+    ]
+}
