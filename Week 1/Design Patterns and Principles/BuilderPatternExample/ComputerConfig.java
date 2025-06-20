@@ -13,7 +13,7 @@ public class ComputerConfig {
         System.out.println("Computer 2 Config:");
         System.out.println("CPU: " + GamingPC.getCPU());
         System.out.println("RAM: " + GamingPC.getRAM());
-        System.out.println("Storage: " + GamingPC.getStorage());
+        System.out.println("Graphics Card: " + GamingPC.getGPU());
 
 
     }

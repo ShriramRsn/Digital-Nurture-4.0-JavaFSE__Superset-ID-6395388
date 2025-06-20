@@ -38,6 +38,10 @@ public class Computer {
         this.GPU = GPU;
     }
 
+    public String getGPU(){
+        return GPU;
+    }
+
     
 
     public static class ComputerBuilder{
