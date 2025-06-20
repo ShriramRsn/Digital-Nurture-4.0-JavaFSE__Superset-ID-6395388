@@ -5,6 +5,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FinancialForecast",
+            "request": "launch",
+            "mainClass": "FinancialForecast",
+            "projectName": "Digital-Nurture-4.0-JavaFSE_d10dd37e"
+        },
+        {
+            "type": "java",
+            "name": "FinancialForcast",
+            "request": "launch",
+            "mainClass": "FinancialForcast",
+            "projectName": "Digital-Nurture-4.0-JavaFSE_d10dd37e"
+        },
+        {
+            "type": "java",
             "name": "Store",
             "request": "launch",
             "mainClass": "Store",
