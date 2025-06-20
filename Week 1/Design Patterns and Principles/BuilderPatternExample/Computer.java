@@ -2,10 +2,12 @@ public class Computer {
     private String CPU;
     private int RAM;
     private int Storage;
+    private String GPU;
     private Computer(ComputerBuilder builder) {
         this.CPU = builder.CPU;
         this.RAM = builder.RAM;
         this.Storage = builder.Storage;
+        this.GPU = builder.GPU;
     }
 
     public String getCPU() {
@@ -32,10 +34,22 @@ public class Computer {
         this.Storage = Storage;
     }
 
+    public void setGPU(String GPU){
+        this.GPU = GPU;
+    }
+
+    
+
     public static class ComputerBuilder{
         private String CPU;
         private int RAM;
         private int Storage;
+        private String GPU;
+
+        public ComputerBuilder(String CPU, int RAM){
+            this.CPU = CPU;
+            this.RAM = RAM;
+        }
 
         public String getCPU(){
             return CPU;
@@ -62,6 +76,16 @@ public class Computer {
             this.Storage = Storage;
             return this;
         }
+
+        public ComputerBuilder setGPU(String GPU) {
+            this.GPU = GPU;
+            return this;
+        }
+
+        public String getGPU() {
+            return GPU;
+        }
+        
 
         // Passing the current builder object to the private constructor of Computer
         public Computer build(){
