@@ -7,8 +7,8 @@ public class PdfDocument implements Document {
     }
 
     @Override
-    public void Close(){
-        System.out.println("Closing the PDF Document...");
+    public void Read(){
+        System.out.println("Reading the PDF Document...");
     }
 
 }

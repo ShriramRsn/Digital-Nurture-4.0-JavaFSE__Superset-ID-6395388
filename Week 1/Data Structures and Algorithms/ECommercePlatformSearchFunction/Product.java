@@ -1,4 +1,5 @@
 public class Product {
+    public static int id;
     public int productid;
     public int productPrice;
     public String productName;

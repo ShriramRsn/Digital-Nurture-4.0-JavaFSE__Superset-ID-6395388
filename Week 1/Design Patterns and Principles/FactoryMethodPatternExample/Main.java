@@ -6,18 +6,18 @@ public class Main {
         factory = new WordDocumentFactory();
         Document word = factory.createDocument();
         word.Open();
-        word.Close();
+        word.Read();
 
         //PDF Document
         factory = new PDFDocumentFactory();
         Document pdf = factory.createDocument();
         pdf.Open();
-        pdf.Close();
+        pdf.Read();
 
         //Excel Document
         factory = new ExcelDocumentFactory();
         Document excel = factory.createDocument();
         excel.Open();
-        excel.Close();
+        excel.Read();
     }
 }

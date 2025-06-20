@@ -6,7 +6,7 @@ public class ExcelDocument implements Document{
     }
 
     @Override
-    public void Close(){
-        System.out.println("Closing the Excel Document...");
+    public void Read(){
+        System.out.println("Reading the Excel Document...");
     }
 }

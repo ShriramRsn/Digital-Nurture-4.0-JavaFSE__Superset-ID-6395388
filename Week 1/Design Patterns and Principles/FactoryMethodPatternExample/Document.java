@@ -1,4 +1,4 @@
 public interface Document{
     void Open();
-    void Close();
+    void Read();
 }

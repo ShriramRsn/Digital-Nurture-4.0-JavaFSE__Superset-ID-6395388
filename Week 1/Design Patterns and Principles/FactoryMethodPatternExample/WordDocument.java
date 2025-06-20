@@ -7,8 +7,8 @@ public class WordDocument implements Document{
     }
 
     @Override
-    public void Close(){
-        System.out.println("Closing the Word Document...");
+    public void Read(){
+        System.out.println("Reading the Word Document...");
     }
 
 }
