@@ -1,3 +1,5 @@
 public interface PaymentProcessor {
-    void processPayment();
+    public int getAmount();
+    public int getPIN();
+    public String processPayment();
 }
