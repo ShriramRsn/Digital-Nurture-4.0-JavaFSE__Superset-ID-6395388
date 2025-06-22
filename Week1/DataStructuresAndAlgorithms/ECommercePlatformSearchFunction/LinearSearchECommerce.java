@@ -1,6 +1,6 @@
-public class LinearSearch {
-    public Product linearSearch(Product[] product, String name){
-        for (Product product1 : product) {
+public class LinearSearchECommerce {
+    public Product linearSearch(Product[] products, String name){
+        for (Product product1 : products) {
             if (product1.productName.equalsIgnoreCase(name)) {
                 return product1;
             }

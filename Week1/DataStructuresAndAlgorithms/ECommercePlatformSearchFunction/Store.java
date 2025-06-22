@@ -4,7 +4,7 @@ public class Store {
                             new Product(12,50000,"Lenova", "Laptop"),
                             new Product(14,70000,"Asus", "Laptop")};
 
-        LinearSearch search = new LinearSearch();
+        LinearSearchECommerce search = new LinearSearchECommerce();
         Product result = search.linearSearch(laptop, "Dell XPS 15");
 
         if(result != null){
