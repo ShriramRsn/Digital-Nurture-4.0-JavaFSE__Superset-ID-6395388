@@ -30,3 +30,6 @@ BEGIN
     COMMIT;
 END;
 /
+
+SELECT * FROM Accounts WHERE AccountID IN (1, 2);
+
