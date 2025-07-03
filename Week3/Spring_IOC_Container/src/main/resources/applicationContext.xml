@@ -1,0 +1,10 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="Main" class="Spring_IOC_Container.Main"/>
+    <bean id="BookService" class="Spring_IOC_Container.BookService">
+        <property name="bookRepo" ref="BookRepository"/>
+    </bean>
+    <bean id="BookRepository" class="Spring_IOC_Container.BookRepository"/>
+</beans>
