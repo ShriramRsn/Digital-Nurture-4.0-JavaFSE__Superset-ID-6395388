@@ -2,7 +2,7 @@ package DependencyInjection;
 
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class BookRepository {
 
     public BookRepository(){
